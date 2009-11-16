@@ -7,13 +7,13 @@
 %define		pnam	JSON
 Summary:	Config::JSON - a JSON based config file system
 Name:		perl-Config-JSON
-Version:	1.3.1
+Version:	1.4.0
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	1318fd32eecfa90df406d17b108f1445
+# Source0-md5:	1ffdc1d66f0d825f2aab28f74e6ce2bb
 URL:		http://search.cpan.org/dist/Config-JSON/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
